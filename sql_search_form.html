@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>SQL search form</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="basic.css" rel="stylesheet">
+</head>
+
+	<body>
+		<div class="container">
+	      <div class="row">
+	        <div class="col-md-6 col-md-offset-3">
+	          <div class="well well-sm">
+	            <legend class="text-center">SQL DB Search</legend>
+
+	            <form class="form-horizontal" enctype="multipart/form-data" name="form1" id="form1" action="select2.php" method="post">
+	              <fieldset>
+	                <!-- Job ID-->
+	                <div class="form-group">
+	                  <label class="col-md-3 control-label" for="jod_id">Job ID</label>
+	                  <div class="col-md-9">
+	                    <input id="job_id" name="job_id" type="text" placeholder="Job ID" class="form-control">
+	                  </div>
+	                </div>
+	                
+	                <!-- Location input-->
+	                <div class="form-group">
+	                  <label class="col-md-3 control-label" for="quantity">Location</label>
+	                  <div class="col-md-9">
+	                    <select class="form-control" id="strain" name="location">
+	                      <option value=""></option>
+	                      <option value="Location1">Location1</option>
+	                      <option value="Location2">Location2</option>
+	                      <option value="Location3">Location3</option>
+	                      <option value="Location4">Location4</option>
+	                    </select>
+	                  </div>
+	                </div>
+	        
+	                <!-- Description body -->
+	                <div class="form-group">
+	                  <label class="col-md-3 control-label" for="description">Job Description</label>
+	                  <div class="col-md-9">
+	                    <textarea class="form-control" id="description" name="description" placeholder="Please describe your project..." rows="5"></textarea>
+	                  </div>
+	                </div>
+
+	                <!-- Notes -->
+	                <div class="form-group">
+	                  <label class="col-md-3 control-label" for="notes">Job Notes</label>
+	                  <div class="col-md-9">
+	                    <textarea class="form-control" id="notes" name="notes" placeholder="Project notes..." rows="10"></textarea>
+	                  </div>
+	                </div>
+
+	                <!-- Date -->
+	                <div class="form-group">
+	                  <label class="col-md-3 control-label" for="jod_id">Job Date</label>
+	                  <div class="col-md-9">
+	                  	<div class="input-group date" id="datetimepicker5">
+		                    <input id="text" name="date" type="Date" class="form-control">
+		                    <span class="input-group-addon">
+		                    	<span class="glyphicon glyphicon-coalendar"></span>
+		                    </span>
+	                  	</div>
+	                  </div>
+	                </div>
+	        
+	                <!-- Form actions -->
+	                <div class="form-group">
+	                  <div class="col-md-12 text-right">
+	                    <input type="submit" name="submit" value="Send" />
+	                  </div>
+	                </div>
+	              </fieldset>
+	            </form>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+
+	<!-- Placed at the end of the document so the pages load faster -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	    <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
