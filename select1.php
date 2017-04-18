@@ -52,7 +52,7 @@ if($result = mysqli_query($link, $sql)){
 }
 
 // Make query available to html page
-include "home_page1.html.php";
+include "tables.html.php";
 
 // Close connection
 mysqli_close($link);
