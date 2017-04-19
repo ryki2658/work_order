@@ -32,20 +32,10 @@
 	              <div class="row">
 	                <div class="col-lg-12">
 	                  <div class="input-group form">
-	                  	<form method="post" action="select1.php">
-	                  	  <select name="sort_id">  
-					        <option value="job_location">School</option>
-					        <option value="job_date">Date</option>
-					      </select>
-					      <select name="sort_selection">
-					        <option value="ALL">ALL</option>
-					        <option value="Location1">THS</option>
-					        <option value="Location2">SHS</option>
-					        <option value="Location3">GHS</option>
-					        <option value="Location4">CLC</option>
-					      </select>
-					      <button type="submit" value="execute">Filter</button>
-					    </form>
+	                       <input type="text" class="form-control" placeholder="Search...">
+	                       <span class="input-group-btn">
+	                         <button class="btn btn-primary" type="button">Search</button>
+	                       </span>
 	                  </div>
 	                </div>
 	              </div>
@@ -96,6 +86,30 @@
 	                </ul>
 	            </div>
 			</div>
+
+			<!-- Location filter select -->
+			<div class="col-md-5">
+	          <div class="row">
+	            <div class="col-lg-12">
+	              <div class="input-group form">
+	              	<form method="post" action="select1.php">
+	              	  <select name="sort_id">  
+				        <option value="job_location">School</option>
+				        <option value="job_date">Date</option>
+				      </select>
+				      <select name="sort_selection">
+				        <option value="ALL">ALL</option>
+				        <option value="Location1">THS</option>
+				        <option value="Location2">SHS</option>
+				        <option value="Location3">GHS</option>
+				        <option value="Location4">CLC</option>
+				      </select>
+				      <button type="submit" value="execute">Filter</button>
+				    </form>
+	              </div>
+	            </div>
+	          </div>
+	       	</div>
 
 			<!-- Bootstrap table -->
 			
