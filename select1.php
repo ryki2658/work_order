@@ -27,7 +27,7 @@ if($link === false){
 //$sql = "SELECT * FROM jobs WHERE job_id LIKE '%".$job_number."%' OR job_location LIKE '%".$job_area."%' OR job_description LIKE '%".$job_details."%' OR job_notes LIKE '%".$job_reminders."%' OR job_date LIKE '%".$job_created."%'";
 
 //  Select query execution
-if($job_sort_selection == "ALL"){
+if($job_sort_selection == ""){
     $sql = "SELECT * FROM jobs";
     echo $sql;
 } else{

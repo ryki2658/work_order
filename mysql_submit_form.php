@@ -27,7 +27,7 @@ mysqli_close($link);
 
 <html>
      <body>
-          <p><a href="/websites/back_end/sql_form_submit.html">Create new ticket</a></p>
+          <p><a href="sql_form_submit.html">Create new ticket</a></p>
      </body>
 </html>
 
