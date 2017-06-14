@@ -27,7 +27,11 @@ if($link === false){
 //$sql = "SELECT * FROM jobs WHERE job_id LIKE '%".$job_number."%' OR job_location LIKE '%".$job_area."%' OR job_description LIKE '%".$job_details."%' OR job_notes LIKE '%".$job_reminders."%' OR job_date LIKE '%".$job_created."%'";
 
 //  Select query execution
+<<<<<<< HEAD
 if($job_sort_selection == "ALL"){
+=======
+if($job_sort_selection == ""){
+>>>>>>> e6ccc6b5ca6d06c5ea9dabccbcf2253f240f725a
     $sql = "SELECT * FROM jobs";
     echo $sql;
 } else{

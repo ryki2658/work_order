@@ -70,8 +70,13 @@
 	                    <!-- Main menu -->
 	                    <li class="current"><a href="index.html"><i class="glyphicon glyphicon-home"></i> Dashboard</a></li>
 	                    <li><a href="calendar.html"><i class="glyphicon glyphicon-calendar"></i> Calendar</a></li>
+<<<<<<< HEAD:tables.html.php
 	                    <li><a href="sql_form_submit.html"><i class="glyphicon glyphicon-stats"></i>New Job</a></li>
 	                    <li><a href="tables.html.php"><i class="glyphicon glyphicon-list"></i> Tables</a></li>
+=======
+	                    <li><a href="stats.html"><i class="glyphicon glyphicon-stats"></i> Statistics (Charts)</a></li>
+	                    <li class="current"><a href="tables.html.php"><i class="glyphicon glyphicon-list"></i> Tables</a></li>
+>>>>>>> e6ccc6b5ca6d06c5ea9dabccbcf2253f240f725a:tables.html.php
 	                    <li><a href="buttons.html"><i class="glyphicon glyphicon-record"></i> Buttons</a></li>
 	                    <li><a href="editors.html"><i class="glyphicon glyphicon-pencil"></i> Editors</a></li>
 	                    <li><a href="forms.html"><i class="glyphicon glyphicon-tasks"></i> Forms</a></li>
